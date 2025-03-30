@@ -1,0 +1,21 @@
+ALERT: POTENTIAL ICS SECURITY INCIDENT
+Date: March 29, 2025
+Time: 14:22 UTC
+Priority: Critical
+
+Description:
+Anomalous activity detected in nuclear facility control systems. Temperature readings for cooling systems show unexpected fluctuations. Engineering workstation showing unusual outbound network connections. Historian server logs indicate unauthorized access attempts.
+
+Initial observations:
+1. Control system safety parameters modified outside of change management window
+2. Unusual network traffic detected between engineering workstation and historian server
+3. Multiple failed login attempts on control network devices
+4. Cooling system reporting inconsistent temperature readings
+
+Immediate actions required:
+1. Conduct triage to determine affected systems
+2. Collect forensic artifacts from potentially compromised devices
+3. Analyze artifacts to identify root cause
+4. Implement recovery procedures
+
+NOTE: This is a potential safety-critical incident. Follow nuclear facility incident response procedures.
