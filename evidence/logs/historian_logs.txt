@@ -1,0 +1,12 @@
+2025-03-28 23:42:12 LOGIN FAILURE username=admin source=172.31.24.15
+2025-03-28 23:42:18 LOGIN FAILURE username=admin source=172.31.24.15
+2025-03-28 23:42:25 LOGIN FAILURE username=admin source=172.31.24.15
+2025-03-28 23:45:01 LOGIN SUCCESS username=operator source=172.31.24.15
+2025-03-28 23:45:33 DATABASE QUERY command="SELECT * FROM cooling_system WHERE timestamp > '2025-03-28 00:00:00'"
+2025-03-28 23:46:05 DATABASE QUERY command="SELECT * FROM safety_parameters"
+2025-03-28 23:48:12 CONFIGURATION CHANGE user=operator parameter="MAX_TEMP_THRESHOLD" old_value="95.0" new_value="115.0"
+2025-03-28 23:48:45 CONFIGURATION CHANGE user=operator parameter="ALARM_TRIGGER_DELAY" old_value="30" new_value="300"
+2025-03-28 23:49:10 CONFIGURATION CHANGE user=operator parameter="SAFETY_OVERRIDE" old_value="0" new_value="1"
+2025-03-28 23:50:22 HISTORIAN DATA EXPORT target="172.31.24.15:/tmp/history_export.dat"
+2025-03-29 00:15:44 SERVICE RESTART component="data_collection_service"
+2025-03-29 00:16:02 SERVICE STATUS component="data_collection_service" status="RUNNING"

@@ -1,0 +1,42 @@
+INCIDENT RESPONSE REPORT
+========================
+
+Incident Number: IR-2025-001
+Date of Report: March 29, 2025
+Analyst Name: [Your Name]
+
+1. EXECUTIVE SUMMARY
+-------------------
+[Provide a brief summary of the incident, its impact, and resolution]
+
+2. INCIDENT DETAILS
+------------------
+Date/Time Detected: 
+Initial Reporter: 
+Affected Systems:
+Incident Category: 
+Impact Assessment:
+
+3. EVIDENCE COLLECTED
+--------------------
+[List all evidence artifacts collected with timestamps and chain of custody information]
+
+4. ANALYSIS FINDINGS
+-------------------
+[Detail the results of your forensic analysis, including attack vectors and TTPs]
+
+5. TIMELINE OF EVENTS
+--------------------
+[Create a chronological timeline of the incident based on evidence]
+
+6. ROOT CAUSE
+------------
+[Identify the root cause of the incident]
+
+7. RECOVERY ACTIONS
+------------------
+[Document actions taken to recover affected systems]
+
+8. RECOMMENDATIONS
+-----------------
+[Provide recommendations to prevent similar incidents in the future]
