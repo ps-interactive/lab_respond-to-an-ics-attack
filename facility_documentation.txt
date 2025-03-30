@@ -1,0 +1,37 @@
+NUCLEAR FACILITY CONTROL SYSTEM DOCUMENTATION
+===============================================
+
+Network Architecture:
+- 172.31.24.0/24: IT Network (Workstations, General IT)
+- 172.31.37.0/24: Operation Technology DMZ (Historian, Engineering Workstations)
+- 172.31.64.0/24: Control Network (PLCs, RTUs, Control Systems)
+
+Critical Systems:
+1. Historian Server (172.31.37.30)
+   - Stores historical process data
+   - Runs OSIsoft PI historian software
+   - Connected to both IT and OT networks
+
+2. Engineering Workstation (172.31.24.15)
+   - Used for configuring control systems
+   - Has direct access to control network
+   - Used by maintenance personnel
+
+3. Control System PLCs (172.31.64.20-25)
+   - Responsible for critical operations including cooling systems
+   - Modbus TCP protocol on port 502
+   - Key register addresses:
+     * 4032: MAX_TEMP_THRESHOLD (°C) - Critical safety parameter
+     * 4033: ALARM_TRIGGER_DELAY (seconds) - Delay before alarm activation
+     * 4034: SAFETY_OVERRIDE (boolean) - Bypasses certain safety checks when set to 1
+
+Authorized Users:
+- admin: System administrator, full access
+- operator: Control system operator, read all/write limited
+- maintenance: Maintenance staff, read all/limited write access
+
+Normal Operations:
+- MAX_TEMP_THRESHOLD should never exceed 100°C
+- ALARM_TRIGGER_DELAY should be 30-60 seconds
+- SAFETY_OVERRIDE should always be 0 during normal operations
+- All changes should follow change management procedures
