@@ -1,1 +1,47 @@
 
+DETAILED FORENSIC ANALYSIS REPORT
+================================
+
+ATTACK VECTOR ANALYSIS
+---------------------
+Initial Access:
+[Describe how the attacker initially gained access to the environment]
+
+Lateral Movement:
+[Describe how the attacker moved between systems in the environment]
+
+Privilege Escalation:
+[Describe how the attacker gained elevated privileges]
+
+MALWARE ANALYSIS
+---------------
+File Information:
+[Provide details about any malicious files identified]
+
+Functionality:
+[Describe what the malware was designed to do]
+
+Communication:
+[Describe any command and control or data exfiltration mechanisms]
+
+IMPACT ASSESSMENT
+---------------
+Systems Affected:
+[List all systems that were affected by the attack]
+
+Operational Impact:
+[Describe the impact on operations]
+
+Safety Implications:
+[Describe any safety implications of the attack]
+
+ROOT CAUSE DETERMINATION
+---------------------
+Primary Cause:
+[Identify the root cause of the incident]
+
+Contributing Factors:
+[Identify contributing factors that enabled the attack]
+
+Timeline of Key Events:
+[Provide a timeline of the most significant events]
