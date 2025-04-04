@@ -1,9 +1,6 @@
 #!/bin/bash
 # Script to create a prioritized recovery plan
 
-# Make sure the reports directory exists
-mkdir -p /home/ubuntu/lab/reports
-
 # Create the recovery plan and write it to a file
 {
 echo "ICS Attack Recovery Plan"
