@@ -1,0 +1,29 @@
+ICS Attack Recovery Plan
+=======================
+
+1. Safety Parameter Restoration:
+The following parameters need to be restored to safe values:
+- MAX_TEMP_THRESHOLD: Reset from 115.0 to 95.0
+- ALARM_TRIGGER_DELAY: Reset from 300 to 30
+- SAFETY_OVERRIDE: Reset from 1.0 to 0
+
+2. Service Integrity Checks:
+Verify the integrity of the following services:
+- Historian data collection service
+- Control system communication service
+- Safety monitoring service
+
+3. Credential Management:
+Reset credentials for the following accounts:
+- operator (compromised)
+- Implement additional access controls
+
+4. Network Security Measures:
+- Block external IPs: 185.142.236.35
+- Implement stricter firewall rules between IT and OT networks
+- Monitor for suspicious connections
+
+5. System Hardening:
+- Apply security patches to Historian server
+- Implement whitelist for control system commands
+- Enhance logging and monitoring
