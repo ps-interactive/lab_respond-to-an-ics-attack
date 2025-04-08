@@ -4,7 +4,8 @@ Time: 14:22 UTC
 Priority: Critical
 
 Description:
-Anomalous activity detected in nuclear facility control systems. Temperature readings for cooling systems show unexpected fluctuations. Engineering workstation showing unusual outbound network connections. Historian server logs indicate unauthorized access attempts.
+Anomalous activity detected in nuclear facility control systems. Temperature readings for cooling systems show unexpected fluctuations. 
+Engineering workstation showing unusual outbound network connections. Historian server logs indicate unauthorized access attempts.
 
 Initial observations:
 1. Control system safety parameters modified outside of change management window
